@@ -31,7 +31,7 @@ enemyX=[]
 enemyY=[]
 enemyX_change=[] #iremos dar movimento aos inimigos em x e y
 enemyY_change=[]
-num_enemies=6 #numeros de inimigos
+num_enemies=6 #numero de inimigos
 for i in range(num_enemies):
     enemyImg.append(pygame.image.load('space/enemy1.png'))
     enemyX.append(random.randint(0,700)) #nasce em um lugar aleatorio
